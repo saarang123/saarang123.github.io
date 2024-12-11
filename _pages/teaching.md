@@ -34,7 +34,7 @@ I additionally conducted mock test classes for USACO Silver/Bronze students. Thi
 
 ### UFDS Mentoring (2020 - 2023)
 
-UFDS Mentoring was a free program started by a friend of mine to help mentor high school students for the Indian Computing Olympiad. I was one of the primary organizers of the UFDS Mentoring program through 2021-2023. Some of the past blogs for the program are [here](https://codeforces.com/blog/entry/104249).
+UFDS Mentoring was a free program started by a friend of mine to help mentor high school students for the Indian Computing Olympiad. I was one of the primary organizers of the UFDS Mentoring program through 2021-2023. Some of the past blogs for the program are [here](https://codeforces.com/blog/entry/104249/).
 
 As part of the program, I'd prepare mock contests on the Polygon problemsetting platform and build testcases/generators/validators for solutions. I'd conduct lectures on some important topics like dynamic programming, specific graph algorithms, special optimization algorithms, etc. 
 
