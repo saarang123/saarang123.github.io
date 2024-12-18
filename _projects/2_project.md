@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Real-Time Anomaly Detection for Industrial IoT
-description: 
+description:
 img: assets/img/3.jpg
 importance: 2
 category: work
@@ -14,4 +14,3 @@ Tools: Pandas, TensorFlow, Scikit-learn, Python
 • Built an anomaly detection system that alerted customers to equipment issues.
 • Cleaned noisy sensor data with a 93% success rate, using linear regression and GMM clustering.
 • Developed an anomaly detection pipeline with One-Class SVM and LSTM, achieving 83% accuracy in outlier detection.
-
