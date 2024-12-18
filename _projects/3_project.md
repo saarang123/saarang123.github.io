@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Pulse - Convert Lectures to TikToks
+description: Top 8, Purdue BoilerMake Hackathon 2024
 img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+redirect: https://devpost.com/software/pulse-mzu53w
+importance: 2
 category: work
 ---
 
