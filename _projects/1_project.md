@@ -5,8 +5,10 @@ description: Tensor Program Optimization using Graph Neural Networks
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
+
+Tools: PyTorch, PyGeometric, Python, TVM, Multithreading, NLP
 
 
 Tensor program optimization is essential for boosting the efficiency of machine learning systems, particularly in edge applications requiring low latency and high throughput. Traditional methods depend on hardware-specific rules or search-based strategies combined with learned cost models for performance tuning. In this project, we present a novel learned cost model for tensor programs leveraging Graph Neural Networks (GNNs). We capture global semantics and dependencies by embedding the abstract syntax tree (AST) of tensor programs into a GNN, enabling precise execution cost predictions. Our approach focuses on runtime prediction specifically for NVIDIA V100 GPUs, delivering accurate and hardware-specific optimization to improve performance in machine learning workloads.

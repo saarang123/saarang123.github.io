@@ -1,19 +1,24 @@
 ---
 layout: page
-title: Real-Time Anomaly Detection for Industrial IoT
-description:
+title: TinyVerify - Translation Validation for Tinygrad
+description: Translation Validation for the lightweight Tinygrad ML compiler
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Tools: Pandas, TensorFlow, Scikit-learn, Python
+Compiler validation is crucial for ensuring the reliability of compiler optimizations, particularly in complex frameworks like LLVM. Traditional testing methods often fall short, prompting the use of formal verification techniques like those in the Alive2 framework, which uses SMT solvers to ensure that optimized LLVM Intermediate Representation (IR) code preserves the semantics of the original.
 
-I worked with Webee.io as part of the Purdue University Data Mine Corporate Partnership program through 2022-2023. 
+While LLVM and Alive2 focus on traditional programming languages, the rise of machine learning (ML) frameworks presents new challenges in verifying compilation from high-level models to low-level hardware-specific code, as ML compilers like TVM and XLA must handle complex optimizations for tensor operations and diverse hardware targets, making formal verification essential for both correctness and performance.
 
-We build an IoT and ML based-solution to analyze sensor data to diagnose machine anomalies and failures in real-time.
+Tinygrad, an emerging Python-based ML framework, exemplifies these challenges. It compiles models directly into low-level GPU-specific instructions such as PTX for Nvidia GPUs or Metal for Apple GPUs, using an IR that is optimized throughout the process. Our work focuses on applying SMT-based translation validation techniques to ensure the correctness of these IR optimizations. By leveraging tools similar to Alive2, we aim to validate that the IR optimizations within Tinygrad preserve the functional behavior of the original model, regardless of the target backend.
 
-The heavy duty work in this project involved data cleaning and noise reductionn. We cleaned noisy sensor data with a 93% success rate, using linear regression and GMM clustering.
 
-Our anomaly detection pipeline was built with One-Class SVM and LSTM, achieving 83% accuracy in outlier detection.
+While TinyVerify validates more than half of Tinygrads operations currently, we are still working on:
++ expanding the framework to properly integration of Undefined Behavior (UB) to verify abstraction refinement,
++ greater support for floating point by modifying Tinygrad source to abide to IEEE standards, 
++ support formal verification for schedules as well, not just on kernel rewrites. (support the entire pipeline from kernel scheduling to compiler optimizations)
+
+
+Github: https://github.com/knightron0/tinyverify (may not be open source yet)

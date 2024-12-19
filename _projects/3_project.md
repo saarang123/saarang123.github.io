@@ -5,7 +5,7 @@ description: Top 8, Purdue BoilerMake Hackathon 2024
 img: assets/img/7.jpg
 redirect: https://devpost.com/software/pulse-mzu53w
 importance: 2
-category: work
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
