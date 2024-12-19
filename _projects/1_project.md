@@ -17,3 +17,8 @@ To evaluate the effectiveness of our model, we integrate it into TVM’s AutoSch
 Code Repository: [https://github.com/knightron0/tvm-gnn-costmodel](https://github.com/knightron0/tvm-gnn-costmodel)
 
 TVM Fork: [https://github.com/dwijenchawra/tvm](https://github.com/dwijenchawra/tvm)
+
+
+Diagramatic representation of our workflow is below:
+
+![TPGNN Workflow](./assets/img/workflow.png)
