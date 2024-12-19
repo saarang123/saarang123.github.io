@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /saarang_srinivasan.pdf
+permalink: /assets/pdf/saarang_srinivasan.pdf
 title: cv
 nav: true
 nav_order: 5
