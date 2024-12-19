@@ -16,11 +16,13 @@ Tinygrad, an emerging Python-based ML framework, exemplifies these challenges. I
 
 Below is an example of a small function in Tinygrad, the generated kernel, and its respective optimized IR:
 
-![Tinygrad](../assets/img/tinygrad.png)
+{% include figure.liquid loading="eager" path="assets/img/tinygrad.png" title="Tinygrad" class="img-fluid rounded z-depth-1" %}
+An example kernel and computational graph (IR) of a Tinygrad function.
 
 Our encoding for the kernels is done through the Python Z3 library, some features of how we encode kernels is shown below:
 
-![Encoding](../assets/img/encoding.png)
+{% include figure.liquid loading="eager" path="assets/img/encoding.png" title="Z3 Encoding" class="img-fluid rounded z-depth-1" %}
+Python Z3 abstractions used for SMT Encoding
 
 
 While TinyVerify validates more than half of Tinygrads operations currently, we are still working on:

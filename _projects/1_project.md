@@ -21,4 +21,4 @@ TVM Fork: [https://github.com/dwijenchawra/tvm](https://github.com/dwijenchawra/
 
 Diagramatic representation of our workflow is below:
 
-![TPGNN Workflow](../assets/img/workflow.png)
+{% include figure.liquid loading="eager" path="assets/img/workflow.png" title="TPGNN Workflow" class="img-fluid rounded z-depth-1" %}
