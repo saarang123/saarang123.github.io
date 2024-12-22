@@ -2,7 +2,7 @@
 layout: page
 title: TPGNN - Learned Cost Model for Tensor Program Optimization
 description: Tensor Program Optimization using Graph Neural Networks
-img: assets/img/12.jpg
+img: assets/img/tvm.png
 importance: 1
 category: work
 related_publications: false

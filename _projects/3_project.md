@@ -2,7 +2,7 @@
 layout: page
 title: Pulse - Convert Lectures to TikToks
 description: Top 8, Purdue BoilerMake Hackathon 2024
-img: assets/img/7.jpg
+img: assets/img/pulse.jpeg
 redirect: https://devpost.com/software/pulse-mzu53w
 importance: 2
 category: fun

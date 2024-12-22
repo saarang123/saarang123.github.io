@@ -2,7 +2,7 @@
 layout: page
 title: TinyVerify - Translation Validation for Tinygrad
 description: Translation Validation for the lightweight Tinygrad ML compiler
-img: assets/img/3.jpg
+img: assets/img/tg.png
 importance: 2
 category: work
 giscus_comments: false
