@@ -13,7 +13,7 @@ category: work
 
 Developed an advanced 3D pathfinding system optimized through mesh simplification:
 
-### Mesh Processing
+#### Mesh Processing
 
 - Implemented multiple mesh simplification algorithms:
   - Quadratic Error Metrics (QEM) for vertex pair contraction
@@ -22,7 +22,7 @@ Developed an advanced 3D pathfinding system optimized through mesh simplificatio
 - Built mesh validation ensuring manifold preservation
 - Developed adaptive simplification based on curvature and feature preservation
 
-### Motion Planning
+#### Motion Planning
 
 - Implemented multiple pathfinding algorithms:
   - A\* with custom heuristics for 3D navigation
@@ -46,7 +46,7 @@ Developed an advanced 3D pathfinding system optimized through mesh simplificatio
 
 Developed a full-featured compiler for a subset of C, implementing sophisticated compilation pipeline stages:
 
-### Frontend
+#### Frontend
 
 - Built lexical analyzer using Flex to handle C tokens, keywords, and complex string/character literals
 - Implemented recursive descent parser with Bison/Yacc supporting:
@@ -55,14 +55,14 @@ Developed a full-featured compiler for a subset of C, implementing sophisticated
   - Complex expressions with operator precedence and associativity
   - Array declarations and pointer arithmetic
 
-### Semantic Analysis
+#### Semantic Analysis
 
 - Implemented symbol table with hash-based lookup for global variables and functions
 - Local variables supported by stack allocation through specialized compilation to x86-64 instructions
 - Built type system supporting longs, chars, and pointers.
 - Added semantic checks for type compatibility in assignments and operations.
 
-### Code Generation
+#### Code Generation
 
 - Generated optimized x86-64 assembly targeting Linux ABI
 - Managed stack frames with proper alignment and calling conventions
@@ -77,7 +77,7 @@ Developed a full-featured compiler for a subset of C, implementing sophisticated
 
 Built a robust shell environment replicating GNU Bash functionality with advanced features:
 
-### Command Processing
+#### Command Processing
 
 - Developed sophisticated command parser handling:
   - Complex command pipelines with multiple stages
@@ -86,7 +86,7 @@ Built a robust shell environment replicating GNU Bash functionality with advance
   - Environment variable management and PATH resolution
   - Wildcard expansion and filename globbing
 
-### Process Management
+#### Process Management
 
 - Implemented job control system tracking foreground/background processes
 - Built process group management for pipeline execution
@@ -96,7 +96,7 @@ Built a robust shell environment replicating GNU Bash functionality with advance
   - SIGCHLD for zombie process cleanup and job status updates
 - Managed process states (Running, Stopped, Terminated) with job table
 
-### Interactive Features
+#### Interactive Features
 
 - Developed line editing with:
   - Emacs-style key bindings (Ctrl-A, Ctrl-E, etc.)

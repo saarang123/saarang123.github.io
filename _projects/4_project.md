@@ -3,13 +3,13 @@ layout: page
 title: Real-Time Anomaly Detection for Industrial IoT
 description: ML-powered anomaly detection system for industrial equipment
 img: assets/img/webee.jpeg
-importance: 3
+importance: 4
 category: work
 ---
 
 ## Overview
 
-Developed an end-to-end IoT and machine learning solution for [Webee.io](https://www.webee.io/) to enable real-time equipment monitoring and failure prediction in industrial settings.
+Developed an end-to-end IoT and machine learning solution for [Webee.io](https://www.webee.io/) to enable real-time equipment monitoring and failure prediction in industrial settings. This was part of my work with The Purdue Data Mine Learning Community.
 
 ## Technical Details
 

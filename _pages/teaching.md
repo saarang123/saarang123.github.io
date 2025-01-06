@@ -2,37 +2,62 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Academic teaching and mentorship experience
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
-I've a strong passion for teaching and I've been involved with it since middle school when I conducted a camp for solving rubix cubes first.
+## Teaching Assistant & Course Development Experience
 
-### Teaching Assistant Roles
+**Purdue University**
 
-- CS 381 Analysis of Algorithms (Fall 24, 450+ students)
+- **CS 381: Analysis of Algorithms** (Fall 2024, Spring 2025, 450+ students)
 
-- CS 182 Foundations of CS (Spring 23, 800+ students)
+  - Developed comprehensive homework assignments and exam problems
+  - Led weekly discussion sections focusing on algorithm design and analysis
+  - Topics: Dynamic Programming, Graph Algorithms, NP-Completeness
 
-- CS211/311 Competitive Programming 1/2 (Spring 22)
+- **CS 182: Foundations of Computer Science** (Spring 2023, 800+ students)
 
-### Course Development Roles
+  - Created 200+ assessment problems covering discrete mathematics and formal logic
+  - Conducted office hours and review sessions for proof techniques and automata theory
+  - Topics: Mathematical Logic, Formal Languages, Automata Theory
 
-- CS 381 Analysis of Algorithms (Fall 24, 450+ students): Created homeworks, quiz/exam problems for 400+ students.
+- **CS 211/311: Competitive Programming 1/2** (Spring 2022, TAd as a freshman at Purdue!)
+  - Conducted office hours for programming contest preparation and homework problems.
 
-- CS 182 Foundations of CS (Spring 23, 800+ students): Created homeworks, 200+ quiz problems for 800+ students.
+## Competitive Programming Education
 
-### USACO Tutor at X-Camp Academy (2023 - Present)
+### USACO Instructor - X-Camp Academy (2023 - Present)
 
-I got involved with X-Camp academy during the summer of my freshman year in college. I helped host summer and winter camps in 2023 June, December for high school students in the Bay Area, California.
+- Designed and delivered intensive algorithm courses for USACO preparation
+- Developed comprehensive curriculum covering:
+  - Graph Algorithms (Shortest Paths, tree DP, spanning trees, etc,)
+  - Dynamic Programming (introduction to 2D/3D DP)
+  - Data Structures, Divide-and-Conquer paradigms, binary search.
+- Created and administered mock USACO contests with original problems
+- Conducted individualized mentoring sessions for Silver/Bronze division students
 
-These summer camps would involve rigorous problem-solving sessions and classes on competitive programming topics including graph algorithms, greedy, bitmasks, etc.
+### Problem Setting Experience (2020-2023)
 
-I additionally conducted mock test classes for USACO Silver/Bronze students. This involved preparing 10-20 USACO style mock contests/tutorials with a combination of original problems and past Olympiad problems.
+- **ACM-ICPC Indian Regionals**
 
-### UFDS Mentoring (2020 - 2023)
+  - Designed and tested algorithmic problems for multiple regional sites
+  - Problems attempted by 500+ teams in official ICPC contests
+  - Focus on advanced algorithms and data structures
 
-UFDS Mentoring was a free program started by a friend of mine to help mentor high school students for the Indian Computing Olympiad. I was one of the primary organizers of the UFDS Mentoring program through 2021-2023. Some of the past blogs for the program are on codeforces/codechef.
+- **Platform Contributions**
+  - [**Codeforces**](https://codeforces.com/contests/writer/saarang): Created Div 2 contests attempted by 20,000+ participants worldwide
+  - **CodeChef**: Developed core algorithm problems for rated competitions including the [hardest problem](https://www.codechef.com/LTIME102/problems/MINFUND) in a Div1 contest!
+  - **HackerEarth**: Designed technical assessment problems for various challenges.
+  - Problems covered: Graph partitioning, dynamic programming optimization, bridge finding, binary search, etc.
 
-As part of the program, I'd prepare mock contests on the Polygon problemsetting platform and build testcases/generators/validators for solutions. I'd conduct lectures on some important topics like dynamic programming, specific graph algorithms, special optimization algorithms, etc.
+### Mentor - UFDS Mentoring Program (2020 - 2023)
+
+- One of the lead mentors for the free mentorship program for Indian Computing Olympiad preparation
+- Developed technical infrastructure:
+  - Designed content/syllabus website through writing algorithm tutorials and problem solutions.
+  - Developed mock problems using problem-setting platform Polygon and automated testing frameworks with custom test generators/validators.
+- Conducted algorithm workshops covering specialized Graph Algorithms, Dynamic Programming Optimization (convex hull trick, DnC DP, etc.), Advanced Data Structures (segment trees, sqrt decomposition, among others).
+
+Through these roles, I've developed strong skills in explaining complex technical concepts, creating rigorous assessment materials, and mentoring students at various skill levels. My experience spans from foundational computer science concepts to advanced algorithmic techniques used in competitive programming.

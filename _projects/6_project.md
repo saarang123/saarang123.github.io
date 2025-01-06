@@ -4,7 +4,7 @@ title: Custom Bash Shell
 description: Feature-rich shell environment with advanced functionality
 img: assets/img/bash.png
 redirect: /projects/all_projects#bash
-importance: 4
+importance: 7
 category: work
 ---
 
