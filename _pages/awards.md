@@ -2,7 +2,7 @@
 layout: page
 title: awards & activities
 permalink: /awards/
-description: Honors, awards, and academic activities
+description: Honors, research, and activities
 nav: true
 nav_order: 4
 ---
