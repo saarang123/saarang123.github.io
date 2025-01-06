@@ -15,7 +15,7 @@ nav_order: 4
 
 ## Research Experience
 
-### Algorithmic Game Theory Research - Purdue University
+#### Algorithmic Game Theory Research - Purdue University
 
 - **Research Assistant** under Dr. Simina Branzei (May 2024 - Dec 2024)
   - Investigated reinforcement learning strategies in repeated fair division and Stackelberg games
@@ -23,7 +23,7 @@ nav_order: 4
   - Developed simulation frameworks to validate theoretical results in fair division algorithms
   - Collaborated with PhD students on equitable outcome analysis in repeated games
 
-## Leadership & Research Activities
+## Leadership & Volunteer Activities
 
 - **Club Treasurer/Officer** at [Competitive Programming Union Club](https://purduecpu.com/) (2023-2024)
 
