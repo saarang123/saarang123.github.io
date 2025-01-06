@@ -19,8 +19,7 @@ Developed an advanced 3D pathfinding system optimized through mesh simplificatio
   - Quadratic Error Metrics (QEM) for vertex pair contraction
   - Edge collapse with topology preservation
   - Vertex clustering for rapid simplification
-- Built mesh validation ensuring manifold preservation
-- Developed adaptive simplification based on curvature and feature preservation
+- Varied simplification constants for 50\%, 75\% reductions to compare processing time, and path finding improvements.
 
 #### Motion Planning
 
@@ -28,7 +27,7 @@ Developed an advanced 3D pathfinding system optimized through mesh simplificatio
   - A\* with custom heuristics for 3D navigation
   - RRT (Rapidly-exploring Random Trees) with dynamic step sizing
   - Bi-directional RRT\* for optimal path finding
-- Added collision detection using spatial hashing
+- Added collision detection using spatial hashing (KDTrees, BallTrees)
 - Developed path smoothing and optimization post-processing
 
 ### Performance Optimization

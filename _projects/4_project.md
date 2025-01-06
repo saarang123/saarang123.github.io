@@ -20,7 +20,6 @@ Developed an end-to-end IoT and machine learning solution for [Webee.io](https:/
   - Gaussian Mixture Models (GMM) for multi-modal noise clustering
   - Kalman filtering for sensor fusion and state estimation
 - Achieved 93% accuracy in noise reduction while preserving critical signal features
-- Implemented real-time data processing using Apache Kafka streams
 
 ### Machine Learning System
 
