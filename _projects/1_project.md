@@ -8,8 +8,6 @@ category: work
 related_publications: false
 ---
 
-# TPGNN: Graph Neural Networks for Tensor Program Optimization
-
 ## Project Overview
 TPGNN introduces a novel approach to optimizing machine learning compiler performance using Graph Neural Networks (GNNs). Traditional ML compilers like TVM use simple cost models like XGBoost to predict program runtime and guide optimizations. However, these models often fail to capture complex program dependencies. Our work replaces TVM's default cost model with a sophisticated GNN that learns from the program's Abstract Syntax Tree (AST), enabling more accurate runtime predictions and better optimization decisions.
 

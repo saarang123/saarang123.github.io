@@ -1,14 +1,12 @@
 ---
 layout: page
-title: TinyVerify - Translation Validation for Tinygrad
+title: TinyVerify - Translation Validation for ML Compilers
 description: Translation Validation for the lightweight Tinygrad ML compiler
 img: assets/img/tg.png
 importance: 2
 category: work
 giscus_comments: false
 ---
-
-# TinyVerify: Translation Validation for ML Compilers
 
 ## Project Overview
 TinyVerify is a formal verification framework for validating compiler optimizations in Tinygrad, a minimalist machine learning framework. While traditional compilers like LLVM have established verification tools (Alive2), machine learning compilers face unique challenges in validating the complex transformations from high-level models to hardware-specific code. Our framework ensures these optimizations preserve program semantics by using SMT (Satisfiability Modulo Theories) solvers.
@@ -30,7 +28,7 @@ We built a comprehensive encoding system using Z3 that handles:
 - **Floating Point**: IEEE-754 compliant verification with configurable precision requirements
 
 ### Undefined Behavior Tracking
-Similar to production compilers, we implemented sophisticated UB tracking:
+Similar to Alive2 and LLVM, we implemented sophisticated UB tracking:
 - Monitoring of overflow conditions and undefined memory access
 - Propagation of "poison" values through operations
 - Verification of optimization refinement - ensuring target code maintains or improves program determinism
