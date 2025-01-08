@@ -8,17 +8,49 @@ category: work
 related_publications: false
 ---
 
-Tools: PyTorch,A PyGeometric, Python, TVM, Multithreading, NLP
+# TPGNN: Graph Neural Networks for Tensor Program Optimization
 
-Tensor program optimization is essential for boosting the efficiency of machine learning systems, particularly in edge applications requiring low latency and high throughput. Traditional methods depend on hardware-specific rules or search-based strategies combined with learned cost models for performance tuning. In this project, we present a novel learned cost model for tensor programs leveraging Graph Neural Networks (GNNs). We capture global semantics and dependencies by embedding the abstract syntax tree (AST) of tensor programs into a GNN, enabling precise execution cost predictions. Our approach focuses on runtime prediction specifically for NVIDIA V100 GPUs, delivering accurate and hardware-specific optimization to improve performance in machine learning workloads.
+## Project Overview
+TPGNN introduces a novel approach to optimizing machine learning compiler performance using Graph Neural Networks (GNNs). Traditional ML compilers like TVM use simple cost models like XGBoost to predict program runtime and guide optimizations. However, these models often fail to capture complex program dependencies. Our work replaces TVM's default cost model with a sophisticated GNN that learns from the program's Abstract Syntax Tree (AST), enabling more accurate runtime predictions and better optimization decisions.
 
-To evaluate the effectiveness of our model, we integrate it into TVM’s AutoScheduler framework. TVM is an open-source machine learning compiler stack that automates tensor program optimization. We replace TVM’s default cost model (XGBoost) with our GNN-based model and use TVM’s AutoScheduler to fine-tune and optimize tensor programs. We further evaluate our model on datasets such as TenSet where our model's outperforms XGBoost in terms of accuracy.
+## Technical Implementation
 
-Code Repository: [https://github.com/knightron0/tvm-gnn-costmodel](https://github.com/knightron0/tvm-gnn-costmodel)
+### Feature Engineering and Data Processing
+- Developed custom embeddings for 55 distinct node types in TVM's Tensor IR using FastText
+- Created node feature vectors combining type embeddings and constant values
+- Processed dataset of 131 workloads from TenSet, containing ~60K samples with varying graph sizes
+- Implemented advanced data preprocessing including Z-score normalization for numerical stability
 
-TVM Fork: [https://github.com/dwijenchawra/tvm](https://github.com/dwijenchawra/tvm)
+### GNN Architecture
+- Built a hierarchical GNN with 3 message-passing layers using graph convolutions
+- Incorporated TopK pooling layers to handle large ASTs efficiently
+- Designed a multi-layer architecture combining:
+  - Graph convolutional layers for local feature extraction
+  - Hierarchical pooling for graph structure learning
+  - Global pooling for final graph representation
+  - MLP layers for runtime prediction
 
+### Integration with TVM
+- Modified TVM's AutoScheduler to support GNN-based cost predictions
+- Implemented custom data extraction pipeline for converting TensorIR to graph format
+- Developed efficient feature computation and model inference pathways
 
-Diagramatic representation of our workflow is below:
+## Results and Impact
+Our model achieved:
+- 33% improvement in prediction accuracy compared to XGBoost on test workloads
+- Successful validation on real ML architectures including ResNet-18, MobileNet, and Inception v3
+- Better generalization to unseen workload types due to structural understanding
 
 {% include figure.liquid loading="eager" path="assets/img/workflow.png" title="TPGNN Workflow" class="img-fluid rounded z-depth-1" %}
+*High-level architecture of TPGNN showing the workflow from TensorIR to runtime prediction*
+
+## Tools and Technologies
+- PyTorch & PyTorch Geometric for GNN implementation
+- TVM for compiler infrastructure
+- FastText for node embedding generation
+- Python multiprocessing for parallel data processing
+- CUDA for GPU acceleration
+
+## Code and Resources
+- [TPGNN Implementation](https://github.com/knightron0/tvm-gnn-costmodel)
+- [Modified TVM Fork](https://github.com/dwijenchawra/tvm)
