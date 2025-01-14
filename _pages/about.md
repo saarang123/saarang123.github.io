@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Game's the game
+subtitle: 
 
 profile:
   align: right
