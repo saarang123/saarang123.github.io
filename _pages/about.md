@@ -18,6 +18,8 @@ nav_order: 1
 
 My name is Saarang Srinivasan and I'm a senior at Purdue University studying Computer Science. I'm fascinated by problems and have a strong interest in machine learning and algorithms. More specifically, I'm interested in designing efficient and scalable Systems for Machine Learning.
 
+I'm currently working as an Engineer at [Pika Labs](https://pika.art/)!
+
 In the past, I've explored the [TinyGrad](https://tinygrad.org/) ML framework, and developed a [Translation Validation](https://saarang123.github.io/projects/2_project/) framework for it (still in the works). Formally, we take all generated GPU kernels of some compiled Tinygrad code, and we verify the equivalence any of the "rewrites" or "optimizations" that are further applied on this kernel.
 
 More recently, my friends and I developed a [GNN-based learned cost model](https://saarang123.github.io/projects/1_project/) to predict runtime of tensor programs. We later integrated it with the [TVM](https://tvm.apache.org/)'s existing AutoScheduler for tensor program optimization.
